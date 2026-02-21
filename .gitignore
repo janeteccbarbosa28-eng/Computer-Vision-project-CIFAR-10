@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-wsl/
+.venv-test/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Logs and temporary artifacts
+*.log
+reports/*.npz
+
+# Backups and local archives
+*.zip
+
+# Full local datasets and backups
+data/
+backup/
+
+# Trained model artifacts
+models/
+
+# Python caches (any depth)
+**/__pycache__/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
